@@ -32,13 +32,17 @@ body {
   color: var(--title-text-color);
 }
 
-.header-link {
+.page-header .link {
   color: var(--title-text-color);
   text-decoration: none;
 }
 
-.header-link:hover,
-.header-link:focus {
+.page-header .link.current {
+  color: var(--primary-color);
+}
+
+.page-header .link:hover,
+.page-header .link:focus {
   color: var(--primary-color);
 }
 
